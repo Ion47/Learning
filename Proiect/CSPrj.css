@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px){
+    .text {padding: 100px; float: left;}
+    .imagini{padding: 60px; float: right;}
+}
+
+body{
+    background-color: aqua;
+    
+}
+
+
+h1{
+    font-style: italic;
+    color: seagreen;
+    font-size: 60px;
+}
+
+p{
+    text-indent: 50px;
+    border: 2px;
+    padding: 5px;
+}
+
+/*  p::first-letter{
+    font-size: xx-large;
+} */
+
+nav{
+    background-color:#252b2c   ;
+    width: 100%;
+    height: 80px;
+}
+
+nav img{
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+
+nav ul{
+    padding-top: 5px;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: rgb(4, 63, 4);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: rgb(140, 140, 214);
+}
+
+
+a.middle{
+    padding-bottom:10px ;
+    padding-inline: 10px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+background-color: rgb(140, 140, 214);
+}
+
+a.active{
+    padding: 10px;
+    line-height: 10px;
+transition: .5s;
+border-bottom-left-radius: 20px;
+}
+
+a:hover.active{
+    padding: 10px;
+    line-height: 10px;
+background-color: antiquewhite;
+}
+
+section{
+    padding: 50px;
+}
+
+.footer{
+    background: rgb(7, 29, 7);
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    float: bottom;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30%;
+}
+
+
+
+.wrapper{
+    margin: 0 auto;
+    position: absolute;
+    max-width: auto;
+    height: 300px;
+    padding: 15px;
+    top: 40%;
+    left: 45%;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: scale(0);  /*scale 1 pentru afisarea chenarului login*/
+}
+
+.text{
+    font-size: 1.1em;
+    text-shadow: 1px 1px ;
+    margin: 20px;
+    margin-top: auto;
+    margin-left: 10px;
+    padding: 10px;
+    max-width: 70%;
+    border: red;
+    border-style: dotted solid dotted solid ;
+    
+}
+
+.imagini{
+    position: static;
+    float: right;
+    padding-right: 80px;
+    margin-top: -80px;
+    /*overflow: auto;*/
+
+    content: "";
+    clear: both;
+    display: table;
+    opacity: 1;
+}
+
+.video{
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border:2px solid #000 ;
+    
+}
+.video iframe{
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+
+.pareriopinii{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border: 1px solid black;
+    float: right;
+}
+
+.location{
+    margin-left: 20px;
+    padding: 50px;
+}
+
+table{
+    margin-left: 60px;
+    width: 40%;
+    text-align: center;
+    color: #000;
+
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+.tabel, a:hover{
+color: rgb(9, 136, 9);
+}
+
+span{
+    display: block;
+}
+
+div.sticky{
+    position: sticky;
+    z-index: 10;
+    background-color: aliceblue;
+    top:0;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+   max-width: fit-content;
+}
+
+.contain{
+    position: relative;
+    
+}
+
+.blackbox{
+    position: relative;
+    z-index: 2;
+    border: 3px solid white;
+    height: 100px;
+    margin: 30px;
+}
+
+.redblock{
+    position: absolute;
+    z-index: 4; 
+    background: red;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.greenbox{
+    position: absolute;
+    z-index: 3; 
+    background: green;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
+
+.scrolltext{
+width: 220px;
+height: 160px;
+border: 1px solid black;
+overflow: scroll;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.contentdrpd{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.contentdrpd a{
+    color: #000;
+    padding: 20px 20px;
+    display: block;
+}
+
+.contentdrpd a:hover{
+    background-color: aqua;
+}
+
+.dropdown:hover .contentdrpd{
+    display: block;
+}
+
+.imgcont{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.imgdropdown{
+    width: 120px;
+}
+
+.imgdropdown:hover .imgcont{
+    display: block;
+}
+
+#borderimg{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 repeat;
+}
+
+/*-----------------------------------------------*/
+
+@media screen and (max-width: 1140px){
+    .container{grid-template: repeat(2, 50%) / 33% 33% 33%;};
+}
+
+
+.container {
+    display: grid;
+    grid-template: repeat(2, 50%) / 33% 33% 33%;
+    object-fit: contain;
+    grid-gap: 30px 50px;
+    padding: 50px;
+    padding-bottom: 400px;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .imgBx {
+    border: 2px black solid;
+  }
+  
+  .container .card .imgBx,
+  .container .card .contentBx {
+    position: absolute;
+  }
+  
+  .container .card .contentBx::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 505px;
+    height: 380px;
+    background: #fff;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .container .card:hover .contentBx::before {
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .container .card .contentBx {
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    width: 505px;
+    height: 380px;
+  }
+  
+  .container .card .contentBx .content {
+    position: relative;
+    padding: 40px;
+    z-index: 1;
+    transition: 0.5s;
+    transform: translateY(500px);
+    transition-delay: 0s;
+  }
+  
+  .container .card:hover .contentBx .content {
+    transform: translateX(0px);
+    transition-delay: 0.25s;
+  }
+  
+  .container .card .contentBx .content h3 {
+    font-size: 0.7cm;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0c3f3a;
+  }
+  
+  .container .card .contentBx .content p {
+    font-size: 0.4cm;
+    font-family: sans-serif;
+  }
+
+
+#backgroundrep{
+    background-image: url(cars.jpg),url(https://superdesigner.co/img/bg.png) ;
+    background-position:  left top;
+    background-repeat: no-repeat,repeat;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 3px 6px 3px;
+}
+
+#gradientbackgr{
+    padding: 10px;
+    background-image: linear-gradient( red,green);
+}
+
+#transform{
+    transform: rotate(10deg);
+}
+
+#rotation{
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#rotation:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+#animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: stangadreapta;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes stangadreapta{
+    0% {background-color: blue;left: 0px;top: 0px;}
+    20% {background-color: red;left: 150px;top: 0px;}
+    40% {background-color: green;left: 250px;top: 150px;}
+    60% {background-color: gold;left: 250px;top: 250px;}
+    80% {background-color: purple;left: 0px;top: 150px;}
+    1000% {background-color: snow;left: 0px;top: 0px;}
+}

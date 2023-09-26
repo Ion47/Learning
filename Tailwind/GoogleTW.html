@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- pentru iconita -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GoogleTW</title>
+  </head>
+
+  <body class="text-sm text-gray-800">
+    <header class="flex w-full justify-end">
+      <div class="flex space-x-4 p-6">
+        <a href="" class="hover:underline">Gmail</a>
+        <a href="" class="hover:underline">Imagini</a>
+        <ion-icon name="apps-outline" class="text-xl"></ion-icon>
+        <a href="" class="hover:underline">Login</a>
+      </div>
+    </header>
+    <main class="container mx-auto flex max-w-xl flex-col space-y-6 px-4 pt-32">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png"
+        alt="Google"
+        class="mx-auto h-24"
+      />
+      <div
+        class="flex rounded-full border-2 border-gray-300 px-4 py-2 hover:shadow-lg"
+      >
+        <div class="cursor-pointer place-self-center text-gray-500">
+          <ion-icon name="search-outline" class="text-lg"></ion-icon>
+        </div>
+        <div class="flex w-full px-4">
+          <input
+            type="text"
+            class="w-full border-none text-base outline-none"
+          />
+        </div>
+        <div
+          class="mx-1 flex cursor-pointer flex-row gap-2 place-self-end p-1 text-gray-500"
+        >
+          <ion-icon name="camera-outline" class="text-xl"></ion-icon>
+          <ion-icon name="mic-outline" class="text-xl"></ion-icon>
+        </div>
+      </div>
+      <div class="mx-auto flex gap-3 space-x-2">
+        <div
+          class="input cursor-pointer rounded bg-gray-300 px-4 py-2 transition-all hover:shadow-xl"
+        >
+          Cautare Google
+        </div>
+        <div
+          class="input cursor-pointer rounded bg-gray-300 px-4 py-2 transition-all hover:shadow-xl"
+        >
+          Ma simt norocos
+        </div>
+      </div>
+      <div class="mx-auto flex px-1">
+        Google oferit in:
+        <a href="#" class="px-1 text-indigo-600">magyar</a>
+        <a href="#" class="px-1 text-indigo-600">Deutsch</a>
+      </div>
+    </main>
+    <footer
+      class="absolute bottom-0 flex w-full flex-col bg-gray-300 px-8 leading-10"
+    >
+      <div class="space-x-6">
+        <a href="#" class="hover:underline">Romania</a>
+      </div>
+      <div class="w-auto border border-black"></div>
+      <div class="space-x-6">
+        <a href="#" class="hover:underline">Despre</a>
+        <a href="#" class="hover:underline">Publicitate</a>
+        <a href="#" class="hover:underline">Companii</a>
+        <a href="#" class="hover:underline ">Cum functioneaza Cautarea</a>
+        <a href="" class="absolute bottom-0 right-0 mx-1 px-8 hover:underline">Setari</a>
+        <a href="" class="absolute bottom-0 right-12 mx-1 px-8 hover:underline">Termeni</a>
+        <a href="" class="absolute bottom-0 right-28 mx-1 px-8 hover:underline"
+          >Confidentialitate</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

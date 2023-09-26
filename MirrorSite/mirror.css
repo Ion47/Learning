@@ -1,0 +1,646 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(href=//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&subset=latin);
+}
+
+nav {
+    position: relative;
+    left: 205px;
+    top: 30px;
+    line-height: 25.6px;
+    width: 45px;
+}
+
+ion-icon {
+    position: relative;
+    float: right;
+    font-size: 35px;
+    right: 200px;
+    bottom: 10px;
+    width: 45px;
+}
+
+.primset {
+    height: 1038px;
+}
+
+.primurand #textalign {
+    padding-block: 10px;
+    padding-top: 20px;
+    margin-left: 10%;
+    width: 1100px;
+    font-size: 3.75rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.1;
+    word-spacing: 15px;
+    z-index: 3;
+}
+
+.cerc {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    left: 380px;
+    width: 300px;
+}
+
+.primg {
+    position: relative;
+    z-index: 2;
+    bottom: 120px;
+    left: 80px;
+    width: 670px;
+    margin: auto;
+}
+
+.overtextimg1 {
+    padding: 40px;
+    background: white;
+    position: relative;
+    bottom: 460px;
+    z-index: 5;
+    width: 437px;
+    height: 410px;
+    margin: auto;
+    right: 400px;
+}
+
+.overtextimg1 #primurand1 {
+    text-align: left;
+    font-size: 1.875rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 19px 0 0;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.overtextimg1 #text1 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 30px 19px 0 0;
+    word-wrap: break-word;
+}
+
+.overtextimg1 #text2 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#buton1 {
+    padding-inline: 47px;
+    padding-block: 10px;
+    width: 120px;
+    height: 22px;
+    border: 3px solid #efe23b;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+
+#buton1:hover {
+    background-color: #000;
+    width: 119px;
+    height: 25px;
+}
+
+#buton1:hover a {
+    color: white;
+}
+
+
+#buton2 {
+    padding-inline: 47px;
+    padding-block: 10px;
+    width: 120px;
+    height: 22px;
+    border: 3px solid #efe23b;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+
+#buton2:hover {
+    background-color: white;
+    width: 119px;
+    height: 25px;
+}
+
+#buton2:hover a {
+    color: black;
+}
+
+#buton3 {
+    background-color: #000;
+    padding-inline: 47px;
+    padding-block: 10px;
+    width: 420px;
+    height: 22px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#buton3:hover {
+    background-color: gray;
+    width: 420px;
+    height: 25px;
+}
+
+#buton3:hover a {
+    color: white;
+}
+
+
+
+.expander {
+    margin: auto;
+    height: 334px;
+    background-color: #efe23b;
+    position: relative;
+    bottom: 800px;
+}
+
+.primset2 {
+    height: 700px;
+}
+
+.cerc2 {
+    margin: auto;
+    width: 50%;
+}
+
+.overtext2 {
+    position: relative;
+    bottom: 180px;
+    right: 300px;
+    padding: 30px;
+    background: transparent;
+    margin: auto;
+    z-index: 5;
+    width: 582px;
+    height: 450px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.overtext2 #primurand2 {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 3.8rem;
+
+}
+
+.overtext2 #text1 {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.overtext2 #text2 {
+    font-size: 1.25rem;
+}
+
+.image2 img {
+    position: relative;
+    bottom: 800px;
+    right: 300px;
+    float: right;
+    margin: auto;
+
+    border-radius: 50%;
+    /* nu uita si ..... img*/
+}
+
+.bblackground {
+    margin: 0;
+    width: auto;
+    height: 871px;
+    background-color: #1a1a1a;
+    z-index: -1;
+}
+
+.bblackground .trucking {
+    position: relative;
+    margin: auto;
+    right: 300px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.1;
+    top: 70px;
+    height: 132px;
+    width: 656px;
+}
+
+.smallbox {
+    z-index: 1;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    color: black;
+    left: 120px;
+    top: 120px;
+    width: 333px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.smallbox h3 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 1.2;
+}
+
+.smallbox img {
+    width: 336px;
+    height: 341px;
+    object-fit: cover;
+}
+
+.expander2 {
+    z-index: 0;
+    margin: auto;
+    height: 363px;
+    width: 60%;
+    float: left;
+    background-color: #efe23b;
+    position: relative;
+    bottom: 200px;
+}
+
+.rightbox {
+    position: relative;
+    float: right;
+    right: 250px;
+    bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 530px;
+    gap: 100px;
+}
+
+.rightbox .rtext {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.rightbox .rtext h4 {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.rightbox .rtext p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+.rightbox .rtext a {
+    color: #efe23b;
+}
+
+.rightbox .rtext a:hover {
+    color: white;
+}
+
+.primset4 {
+    height: 600px;
+}
+
+.ps4st {
+    position: relative;
+    left: 250px;
+    padding: 30px;
+    width: 415px;
+    height: 382px;
+}
+
+.ps4st h1 {
+    font-size: 3.75rem;
+}
+
+.ps4st h5 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.ps4dr {
+    position: relative;
+    left: 850px;
+    bottom: 350px;
+    width: 605px;
+    height: 382px;
+}
+
+.ps4dr p {
+    line-height: 2;
+    font-size: 1.4rem;
+}
+
+.blackwall {
+    z-index: -1;
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+    height: 1300px;
+    width: auto;
+}
+
+.blackcenter {
+    color: white;
+    margin: auto;
+    width: 50%;
+    z-index: 1;
+}
+
+.blackcenter h2 {
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: 700;
+    padding-top: 60px;
+    line-height: 1.1;
+}
+
+.blackcenter p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 883px;
+}
+
+.blackcenter img {
+    position: relative;
+    padding-top: 35px;
+    width: 974px;
+    height: 570px;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.yellowcenter {
+    width: 1140px;
+    height: 223px;
+    background-color: #efe23b;
+    position: relative;
+    bottom: 400px;
+    z-index: 0;
+}
+
+.bottomflex {
+    bottom: 200px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bottomflex .ourmission {
+    width: 488px;
+    height: 383px;
+}
+
+.bottomflex .ourmission h3 {
+    font-weight: 600;
+    font-size: 1.88rem;
+    line-height: 1.2;
+}
+
+.bottomflex .ourmission p {
+    line-height: 1.8;
+
+}
+
+.bottomflex .latestproj {
+    width: 425px;
+    height: 383px;
+}
+
+.bottomflex .latestproj h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.bottomflex .latestproj ol {
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.primset5 {
+    width: 50%;
+    margin: auto;
+    height: 790px;
+}
+
+.stalpyellow {
+    background-color: #efe23b;
+    width: 442px;
+    height: 790px;
+    z-index: -1;
+
+}
+
+.mesteri {
+    height: 0;
+    width: 0;
+}
+
+.mesteri img {
+    width: 692px;
+    height: 525px;
+    object-fit: cover;
+    position: relative;
+    bottom: 700px;
+    right: 350px;
+}
+
+.contactprof {
+    display: flex;
+    flex-direction: column;
+    width: 476px;
+    height: 397px;
+    padding: 30px;
+    padding-inline: 60px;
+    background-color: white;
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+}
+
+.contactprof h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.contactprof p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.blackwall2 {
+    z-index: -1;
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+    height: 800px;
+    width: auto;
+}
+
+.primset6 {
+    height: 0px;
+    margin: auto;
+    width: 50%;
+}
+
+.primset6 .like {
+    position: relative;
+    bottom: 1550px;
+    width: 313px;
+}
+
+.primset6 .like img {
+    height: 466px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.primset6 .scotch {
+    position: relative;
+    bottom: 1800px;
+    left: 400px;
+    width: 310px;
+}
+
+.primset6 .scotch img {
+    height: 310px;
+    width: 335px;
+    object-fit: cover;
+}
+
+.logistics {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 358px;
+    height: 579px;
+    padding-right: 50px;
+    bottom: 700px;
+    float: right;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logistics h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.logistics p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.logistics .cerc3 {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.stalpyellowmic {
+    background-color: #efe23b;
+    width: 113px;
+    height: 800px;
+    z-index: 0;
+    position: relative;
+    bottom: 800px;
+    left: 120px;
+}
+
+.yellowall {
+    background-color: #efe23b;
+    height: 800px;
+    width: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    height: 0px;
+}
+
+.leftcontact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 510px;
+    height: 426px;
+    padding: 30px;
+    bottom: 700px;
+}
+
+.leftcontact h6 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.13rem;
+}
+
+.leftcontact h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.leftcontact pre {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+
+.icon2 {
+    position: relative;
+    top: 20px;
+    right: 130px;
+}
+
+.sendsubmit {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1000px;
+    left: 500px;
+    width: 510px;
+    height: 378px;
+    padding: 30px;
+}
+
+form input,
+textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-size: 1.125rem;
+    padding: 10px;
+}
+
+.final {
+    position: relative;
+    background-color: #333333;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.final p {
+    font-size: 0.9rem;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
