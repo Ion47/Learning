@@ -1,0 +1,379 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Titillium Web";
+    src: url(https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap);
+}
+
+.primdiv {
+    display: block;
+    box-sizing: border-box;
+    height: 975px;
+}
+
+.primdiv .business {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.primdiv .business h1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    width: 740px;
+    height: 230px;
+}
+
+.halaimg {
+    display: flex;
+    justify-content: center;
+}
+
+.halaimg img {
+    width: 1140px;
+    height: 428px;
+    object-fit: cover;
+    object-position: 50% 100%;
+    position: relative;
+}
+
+.doicard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 250px;
+    gap: 20px;
+}
+
+.doicard .pozazamb {
+    padding: 10px;
+}
+
+.doicard .pozazamb img {
+    width: 388px;
+    height: 383px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.doicard .readmore {
+    background-color: white;
+    width: 308px;
+    height: 303px;
+    padding: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.doicard .readmore h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 1px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+a {
+    color: #000;
+    position: relative;
+    border: 2px solid black;
+    padding-inline: 30px;
+    padding-block: 10px;
+}
+
+.doicard .readmore a {
+    top: 80px;
+    left: 25%;
+}
+
+.secdiv {
+    height: 711px;
+}
+
+.constrpoza {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.constrpoza {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.constrpoza .cardst {
+    width: 643px;
+    height: 531px;
+    padding: 30px;
+    position: relative;
+}
+
+.constrpoza .cardst h2 {
+    margin: 0;
+    font-size: 3rem;
+    margin-top: 65px;
+    margin-inline: auto;
+    width: 416px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+    line-height: 1.21;
+}
+
+
+.constrpoza .cardst h5 {
+    padding: 0;
+    margin: 20px auto 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    width: 393px;
+}
+
+.constrpoza .cardst p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 60px 0 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.constrpoza .cardst a {
+    top: 15px;
+}
+
+.constrpoza .pozaclad img {
+    margin-top: 65px;
+    width: 377px;
+    height: 531px;
+}
+
+.blackdiv {
+    width: auto;
+    height: 1049px;
+    background-color: #000;
+}
+
+.blackdiv .uppertext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.uppertext h5 {
+    letter-spacing: 2px;
+    margin: 17px 10px 20px;
+    position: relative;
+    top: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.uppertext h2 {
+    margin: 20px 10px 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.uppertext p {
+    margin: 20px auto 0;
+    width: 664px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.catalog {
+    color: white;
+
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.catalog .catalogup {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog .catalogdw {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.mared8n {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.mared8n .healthcare {
+    margin-top: 40px;
+    padding: 30px;
+    width: 521px;
+    height: 448px;
+}
+
+.mared8n .healthcare h5 {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.mared8n .healthcare p {
+    margin: 20px 0 0;
+}
+
+
+.pozad8n img {
+    max-width: 100%;
+    height: 448px;
+
+    object-fit: cover;
+    object-position: 100% 0%;
+    padding: 30px;
+}
+
+.mared8n .buildings {
+    margin-top: 30px;
+    padding: 30px;
+    width: 521px;
+    height: 448px;
+
+
+    font-size: 1.25rem;
+    text-transform: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.mared8n .buildings .edbuild {
+    padding: 30px;
+}
+
+.mared8n .buildings .govbuild {
+    padding: 30px;
+}
+
+.portfolio {
+    background-color: #000;
+    min-height: 796px;
+}
+
+.porttext {
+    color: white;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+
+.imagclad img {
+    height: 287px;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.elvoconst {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.elvoconst .world {
+    width: 570px;
+    height: 433px;
+}
+
+.elvoconst .worldteam {
+    width: 530px;
+    height: 431px;
+    padding: 0 20px 20px;
+    margin-top: 50px;
+}
+
+.worldteam h5 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
+
+.worldteam h2 {
+    font-weight: bold;
+    margin: 20px 20px 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "Titillium Web";
+}
+
+.end {
+    background-color: #000;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.end .left {
+    padding: 30px 60px;
+    width: 450px;
+    height: 222px;
+}
+
+.end .left h6{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+.end .left h5{
+    margin: 30px 0 0;
+    font-size: 1.25rem;
+line-height: 1.5;
+}
+
+.end .right {
+    padding: 30px 60px;
+    width: 450px;
+    height: 222px;
+}
+
+.end .right h2{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Titillium Web";
+}
+
+.end .right pre{
+    font-weight: 400;
+    margin: 20px 0 0;
+    
+}
